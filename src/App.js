@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -60,16 +59,12 @@ function App() {
     switch (index) {
       case 0:
         return "w-10/12 md:w-1/3 shadow py-4 px-6 rounded-lg bg-yellow-400 mb-4"
-        break;
       case 1:
         return "w-10/12 md:w-1/3 shadow py-4 px-6 rounded-lg bg-gray-400 mb-4"
-        break;
       case 2:
         return "w-10/12 md:w-1/3 shadow py-4 px-6 rounded-lg bg-orange-400 mb-4"
-        break;
       default:
         return "w-10/12 md:w-1/3 shadow py-4 px-6 rounded-lg bg-gray-200 mb-4"
-        break;
     }
   }
 
